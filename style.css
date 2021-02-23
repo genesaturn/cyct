@@ -39,7 +39,7 @@
             border-radius: 50px;
             border: 1px solid grey;
             padding: 5px 10px;
-            margin: 0px 5px 0px 5px;
+            margin: 0px 2px 0px 5px;
             background-color: transparent;
             text-decoration: none;
             display: inline-block;
@@ -111,11 +111,16 @@
         }
 
         th, td {
-            padding: 15px;
+            padding: 2%;
         }
 
+        th{
+            width: 25%;
+        }
         td {
             text-align: left;
+            overflow: auto;
+            white-space: nowrap;
         }
 
         table {
