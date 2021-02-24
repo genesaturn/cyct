@@ -131,9 +131,11 @@ td {
   padding: 2%;
 }
 
+/*
 th {
   white-space: nowrap;
 }
+*/
 
 td {
   text-align: left;
