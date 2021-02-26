@@ -116,33 +116,15 @@ iframe {
 }
 
 table,
-th,
-td {
+td,
+th {
   border: 1px solid black;
   border-collapse: collapse;
+  padding: 10px;
 }
+
 table {
-  margin: 20px auto 20px auto;
   width: 100%;
-}
-
-th,
-td {
-  padding: 2%;
-}
-
-/*
-th {
-  white-space: nowrap;
-}
-*/
-
-td {
-  text-align: left;
-  /*
-  overflow: auto;
-  white-space: nowrap;
-*/
 }
 
 a {
