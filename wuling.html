@@ -13,9 +13,24 @@
   <link href="style.css" rel="stylesheet">
   <title>朝陽鐵騎社 • CYCT</title>
   <link rel="icon" type="image/png" href="cyct_fav.png">
+  <style>
+
+#videoBackground {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+  </style>
 </head>
 
 <body tabindex="-1">
+  <video autoplay muted loop id="videoBackground">
+    <source src="testBackground.mp4" type="video/mp4">
+  </video>
+
   <div id="appContent">
     <div class="basicCard" id="introduction">
       <h2 class="cardTitle">制霸武嶺</h2>
