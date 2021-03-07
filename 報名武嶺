@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#F32323">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&family=Roboto+Mono:wght@300&family=Roboto&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <title>朝陽鐵騎社 • CYCT</title>
+  <link rel="icon" type="image/png" href="cyct_fav.png">
+</head>
+
+<body tabindex="-1">
+  <div id="appContent">
+    <div class="basicCard" id="introduction">
+      <h2 class="cardTitle">制霸武嶺</h2>
+      <p>N/A</p>
+      <hr>
+      <p>您可以透過以下平臺聯繫鐵騎社。</p>
+      <div class="actions">
+        <a class="roundedLinkButton magentaButton" href="https://www.instagram.com/cyut_bike/" target="_blank"
+          title="Instagram 帳號"><span class="material-icons">camera_roll</span>Instagram</a>
+        <a class="roundedLinkButton blueButton" href="https://www.facebook.com/cyutcyct" target="_blank"
+          title="Facebook 粉絲專頁"><span class="material-icons">facebook</span>Facebook</a>
+        <a class="roundedLinkButton" href="mailto:ccteam168@gmail.com" title="傳送電子郵件給鐵騎社"><span
+            class="material-icons">email</span>電子郵件</a>
+      </div>
+    </div>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
