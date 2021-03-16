@@ -17,17 +17,19 @@ hr {
 }
 
 .basicCard {
-  border: 1px solid black;
+  border: 1px solid transparent;
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 25px;
   text-align: center;
-  box-shadow: 8px 8px transparent;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+  transition: 0.5s;
+  //transition-timing-function: cubic-bezier(.4,0,.2,1);
   background-color: white;
 }
 
 .basicCard:hover {
-  box-shadow: 0px 0px rgb(83, 83, 83);
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.3);
 }
 
 .cardTitle {
@@ -47,7 +49,7 @@ iframe {
 .roundedLinkButton {
   color: black;
   border-radius: 50px;
-  border: 1px solid grey;
+  border: 1px solid rgb(200,200,200);
   padding: 5px 10px;
   margin: 0px 2px 0px 5px;
   background-color: transparent;
