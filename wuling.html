@@ -16,38 +16,115 @@
   <style>
 
 #videoBackground {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
   position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
-
   </style>
 </head>
-
 <body tabindex="-1">
-  <video autoplay muted loop id="videoBackground">
+	<video autoplay muted loop id="videoBackground">
     <source src="testBackground.mp4" type="video/mp4">
   </video>
-
+  <div class="fixedHeader" id="cyctHeader">
+   下個活動：藍色公路，03/19 6：30 PM 在社辦集合。
+  </div>
+  <div class="space"></div>
   <div id="appContent">
     <div class="basicCard" id="introduction">
-      <h2 class="cardTitle">制霸武嶺</h2>
-      <p>N/A</p>
+      <h2 class="cardTitle">嗨，這裡是朝陽鐵騎社</h2>
+      <p>在你心中，是否潛藏著一股「熱血」不斷引領你挑戰自我與冒險？或有什麼迫切想要完成的目標、夢想呢？<br>讓鐵騎社的夥伴們與你一起向前衝刺吧！<br></p>
       <hr>
-      <p>您可以透過以下平臺聯繫鐵騎社。</p>
+      <p>歡迎透過以下平臺深入了解、聯繫鐵騎社</p>
       <div class="actions">
         <a class="roundedLinkButton magentaButton" href="https://www.instagram.com/cyut_bike/" target="_blank"
           title="Instagram 帳號"><span class="material-icons">camera_roll</span>Instagram</a>
         <a class="roundedLinkButton blueButton" href="https://www.facebook.com/cyutcyct" target="_blank"
           title="Facebook 粉絲專頁"><span class="material-icons">facebook</span>Facebook</a>
+        <a class="roundedLinkButton redButton" href="https://www.youtube.com/channel/UCWN-rVESPb9jmAUrKTNzqag/featured"
+          target="_blank" title="Youtube 頻道"><span class="material-icons">play_circle</span>Youtube</a>
         <a class="roundedLinkButton" href="mailto:ccteam168@gmail.com" title="傳送電子郵件給鐵騎社"><span
             class="material-icons">email</span>電子郵件</a>
       </div>
     </div>
 
+    <div class="basicCard" id="officeLoaction">
+      <h2 class="cardTitle">辦公室位置</h2>
+      <p><b>宿舍大樓 10 樓社團辦公室 R-1003 室</b><br>歡迎中午來辦公室休息、享用午餐！</p>
+      <div class="actions">
+        <a class="roundedLinkButton greenButton" href="https://goo.gl/maps/EMgSUkDo9NTaUVcM9" target="_blank"
+          title="在 Google 地圖上檢視宿舍大樓的位置"><span class="material-icons">navigation</span>於地圖檢視</a>
+      </div>
+    </div>
+    
+    <div class="imageCard" id="officeLoaction">
+<h2 class="cardTitle">辦公室位置</h2>
+      <p><b>宿舍大樓 10 樓社團辦公室 R-1003 室</b><br>歡迎中午來辦公室休息、享用午餐！</p>
+      <div class="actions">
+        <a class="roundedLinkButton greenButton" href="https://goo.gl/maps/EMgSUkDo9NTaUVcM9" target="_blank"
+          title="在 Google 地圖上檢視宿舍大樓的位置"><span class="material-icons">navigation</span>於地圖檢視</a>
+      </div>
+    </div>
+
+    <div class="basicCard" id="eventTable">
+      <h2 class="cardTitle">展開下一趟旅程</h2>
+
+      <table>
+        <tr>
+          <th>活動名稱</th>
+          <th>日期</th>
+        </tr>
+        <!--tr>
+          <td>期初社大</td>
+          <td title="當天是星期四">3 月 18 日</td>
+        </tr-->
+        <tr>
+          <td>藍色公路</td>
+          <td title="當天是星期五">3 月 19 日</td>
+        </tr>
+        <tr>
+          <td>社課：武嶺攻略</td>
+          <td title="當天是星期三">4 月 28 日</td>
+        </tr>
+        <tr>
+          <td>制霸武嶺</td>
+          <td title="當天是周休二日">5 月 8 日<br>～<br>5 月 9 日</td>
+        </tr>
+        <tr>
+          <td>王功漁港</td>
+          <td title="當天是星期天">5 月 23 日</td>
+        </tr>
+        <tr>
+          <td>期末社大</td>
+          <td title="當天是星期四">6 月 10 日</td>
+        </tr>
+      </table>
+      <!--div class="actions">
+        <a class="roundedLinkButton"><span class="material-icons">block</span>暫無可用操作</a>
+      </div-->
+    </div>
+
+    <div class="basicCard" id="membershipFee">
+      <h2 class="cardTitle">社員費用</h2>
+      <p><b>新社員</b><br>109 整學年<br>$1,200<br>（包含社服、自行車水壺、超吸水毛巾）<br><br>僅第一學期<br>$700<br>（包含社服、自行車水壺）<br><br>僅第二學期<br>$500<br>（無贈品）
+      </p>
+      <p><b>老鳥社員</b><br>109 整學年<br>$750</p>
+    </div>
+    
+      <div class="basicCard" id="items">
+      <h2 class="cardTitle">社服與配件費用</h2>
+      <p><b>車輛租借優惠卡</b><br>$400/學期</p>
+      <p><b>朝陽鐵騎 CYCT 排汗社服</b><br>$280/件</p>
+      <p><b>自行車專用水壺</b><br>$80/個</p>
+    </div>
   </div>
+  <footer>
+    <p>Chao Yang Cycling Team 14th</p>
+  </footer>
   <script src="app.js"></script>
 </body>
 
