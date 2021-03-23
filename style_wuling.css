@@ -78,7 +78,7 @@ iframe {
 }
 
 .roundedLinkButton:visited {
-  color: black;
+  color: rgb(100, 100, 100);
 }
 
 .roundedLinkButton:hover {
