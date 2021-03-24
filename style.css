@@ -57,8 +57,9 @@ hr {
 }
 
 iframe {
-  width: 50%;
+  width: 100%;
   display: block;
+  border-radius: 10px;
 }
 
 .roundedLinkButton {
