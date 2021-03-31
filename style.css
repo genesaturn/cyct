@@ -56,7 +56,7 @@ hr {
 }
 
 .cardContent {
-  padding: 20px;
+  padding: 30px;
 }
 
 .cardContentText {
@@ -65,7 +65,8 @@ hr {
 
 .article {
   text-indent: 2em;
-  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .cardContentTimestamp {
