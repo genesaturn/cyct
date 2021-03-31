@@ -24,7 +24,7 @@ body {
 }
 
 hr {
-  margin: 10px 0px 10px 0px;
+  margin: 5px 20vw 5px 20vw;
   border: transparent;
   border-top: 1px solid rgb(235, 235, 235);
 }
@@ -55,16 +55,17 @@ hr {
 }
 
 h2 {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 .cardContent {
-  padding: 10px 10px 20px 10px;
+  padding: 10px 10px 10px 10px;
 }
 
 .cardContentText {
   margin: 0px;
+  padding: 0px;
 }
 
 .article {
@@ -136,14 +137,16 @@ h2 {
 .googleMapsFrame {
   width: 100%;
   display: block;
+  border: 0px;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .mediaContainer {
   z-index: 0;
   position: relative;
   padding-bottom: 56.25%;
-  
+  margin-bottom: 10px;
 }
 
 .youtubeVideo {
