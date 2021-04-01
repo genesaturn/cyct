@@ -100,7 +100,7 @@ h2 {
 .eventCard {
   margin: 20px;
   border-radius: 10px;
-  box-shadow: 0px 5px 15px rgba(80, 90, 40, 0.5);
+  box-shadow: 0px 5px 15px rgb(220, 220, 220);
   color: white;
   transition: 0.3s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -111,7 +111,7 @@ h2 {
 }
 
 .eventCard:hover {
-  box-shadow: 0px 10px 20px rgba(80, 90, 40, 0.5);
+  box-shadow: 0px 10px 20px rgb(200, 200, 200);
 }
 
 .eventCard.firstConf {
