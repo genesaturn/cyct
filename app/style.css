@@ -102,13 +102,14 @@ h2 {
   border-radius: 10px;
   box-shadow: 0px 10px 20px rgb(220, 220, 220);
   color: white;
-  text-shadow: 0px 0px 20px gray;
+  text-shadow: 0px 0px 30px gray;
   transition: 0.3s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   background-color: white;
   background-size: 100% auto;
   background-position:center center;
   background-repeat:no-repeat;
+  font-family: "Roboto Mono", "Noto Sans TC", sans-serif;
 }
 
 .eventCard:hover {
