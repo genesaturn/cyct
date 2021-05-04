@@ -163,9 +163,9 @@ h2 {
 }
 
 .roundedLinkButton {
-  color: rgb(60, 60, 60);
+  color: rgb(255, 255, 255);
   border-radius: 50px;
-  border: solid rgb(58, 58, 58) 1px;
+  border: solid rgb(255, 255, 255) 1px;
   padding: 5px 10px;
   margin: 0px 3px 0px 3px;
   background-color: rgba(240, 240, 240, 0);
@@ -182,14 +182,14 @@ h2 {
 }
 
 .roundedLinkButton:hover {
-  background-color: rgb(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
   color: white;
-  border: solid transparent 1px;
 }
 
 .roundedLinkButton:active {
   background-color: rgb(177, 68, 68);
   color: white;
+  border: solid transparent 1px;
 }
 
 .roundedLinkButton.redButton:active {
