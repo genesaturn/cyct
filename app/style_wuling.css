@@ -195,7 +195,7 @@ h2 {
 }
 
 .roundedLinkButton:active {
-  background-color: rgb(177, 68, 68);
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border: solid transparent 1px;
 }
