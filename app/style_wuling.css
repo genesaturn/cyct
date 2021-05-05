@@ -255,6 +255,11 @@ table {
 a {
   line-height: 24px;
 }
+
+ol, li{
+  margin: 0px;
+}
+
 .material-icons {
   font-family: "Material Icons";
   font-weight: normal;
