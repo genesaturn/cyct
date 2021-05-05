@@ -256,8 +256,12 @@ a {
   line-height: 24px;
 }
 
-ol, li{
+ul{
   margin: 0px;
+}
+
+li{
+  font-weight: bold;
 }
 
 .material-icons {
