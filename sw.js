@@ -1,6 +1,5 @@
 var cacheName = 'my-site-cache-v1';
 var urlsToCache = [
-    'media/',
     'app/style_wuling.css',
     'app/app.js'
 ];
