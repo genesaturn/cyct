@@ -1,7 +1,7 @@
 var cacheName = 'my-site-cache-v1';
 var urlsToCache = [
-    'app/style_wuling.css',
-    'app/app.js'
+    '/app/style_wuling.css',
+    '/app/app.js'
 ];
 
 self.addEventListener('install', function (event) {
