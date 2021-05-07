@@ -3,12 +3,12 @@
     "name": "制霸武嶺",
     "icons": [
       {
-        "src": "media/LOGO_TEXT_WHITE_NO_BACKGROUND.png",
+        "src": "media/LOGO_TEXT_COLOR_NO_BACKGROUND.png",
         "type": "image/png",
         "sizes": "1600x1600"
       }
     ],
-    "start_url": "wuling_pwa.html",
+    "start_url": "wuling.html",
     "background_color": "#FFFFFF",
     "display": "standalone",
     "scope": "/",
@@ -19,7 +19,7 @@
         "short_name": "簽到",
         "description": "簽到並填寫健康聲明書",
         "url": "wuling.html",
-        "icons": [{ "src": "media/LOGO_TEXT_WHITE_NO_BACKGROUND.png", "sizes": "1600x1600" }]
+        "icons": [{ "src": "media/LOGO_TEXT_COLOR_NO_BACKGROUND.png", "sizes": "1600x1600" }]
       }
     ],
     "description": "制霸武嶺活動資訊頁面"
