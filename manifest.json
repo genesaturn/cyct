@@ -15,10 +15,10 @@
     "theme_color": "#b71c1c",
     "shortcuts": [
       {
-        "name": "簽到",
+        "name": "活動簽到",
         "short_name": "簽到",
         "description": "簽到並填寫健康聲明書",
-        "url": "wuling.html",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSc1avBc594Ip0KrIcbZGE0CfOAaotBtjpfWxB33raz13FVAhg/viewform",
         "icons": [{ "src": "media/LOGO_TEXT_COLOR_NO_BACKGROUND.png", "sizes": "1600x1600" }]
       }
     ],
