@@ -1,3 +1,4 @@
+/*
 const instagramLinkButton = document.getElementById('instagramLink');
 const facebookLinkButton = document.getElementById('facebookLink');
 const youtubeLinkButton = document.getElementById('youtubeLink');
@@ -26,7 +27,7 @@ emailButton.addEventListener('contextmenu', e => {
 
 navigationToOfficeButton.addEventListener('contextmenu', e => {
     e.preventDefault();
-});
+});*/
 
 
 function share(shareTitle, shareText, shareUrl){
@@ -38,3 +39,13 @@ function share(shareTitle, shareText, shareUrl){
         })
       }
 }
+
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('sw.js').then(function(registration) {
+        console.log('SW registration successful, scope: ', registration.scope);
+      }, function(err) {
+        console.log('SW registration failed: ', err);
+      });
+    });
+  }
