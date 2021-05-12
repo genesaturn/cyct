@@ -1,6 +1,6 @@
 {
-    "short_name": "武嶺",
-    "name": "制霸武嶺",
+    "short_name": "鐵騎社",
+    "name": "朝陽科大鐵騎社",
     "icons": [
       {
         "src": "media/LOGO_TEXT_COLOR_NO_BACKGROUND.png",
@@ -22,5 +22,5 @@
         "icons": [{ "src": "media/LOGO_TEXT_COLOR_NO_BACKGROUND.png", "sizes": "1600x1600" }]
       }
     ],
-    "description": "制霸武嶺活動資訊頁面"
+    "description": "朝陽科大鐵騎社 Web APP"
   }
